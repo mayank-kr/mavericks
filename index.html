@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nico+Moji&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=MuseoModerno&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Mavericks</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#home"><h3>MAVERICKS</h3></a>
+        <div class="logo-container">
+          <a href="#home"><img src="logo.png" alt="logo" class="logoimg" /></a>
+        </div>
+      </div>
+      <ul class="nav_links">
+        <li id="link1"><a href="#home">Home</a></li>
+        <li id="link2"><a href="#about">About</a></li>
+        <li id="link4"><a href="#events">Events</a></li>
+        <li id="link3"><a href="#gallery">Gallery</a></li>
+        <li id="link5"><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div id="home" class="home">
+      <div class="home-container">
+        <div class="heading"></div>
+        <h1>MAVERICKS</h1>
+        <div>-------------------------------------------</div>
+        <div class="subheading"></div>
+        <h2>THE MACHINE LEARNING SOCIETY</h2>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="about-heading">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="about-container">
+        <div class="aboutimg"><img src="docubot.gif"</div>
+        <div class="about-content">
+          <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic
+            dolorum porro eligendi iusto, reiciendis assumenda dolores quae
+            maiores, sint repudiandae magni tempora omnis atque ea esse est
+            temporibus ipsam eius eveniet placeat excepturi perspiciatis
+            deserunt! Est magnam debitis earum nobis enim praesentium at error
+            animi ipsum esse officia rerum aspernatur, magni omnis temporibus
+            itaque fugit nulla ex quos.
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="ai">
+      <img src="ai.png" />
+    </div>
+    <div class="events" id="events">
+      <div class="events-heading">
+        <h1>EVENTS</h1>
+      </div>
+      <div class="events-container">
+        <div class="card">
+          <div class="content">
+            <h3><img src="gallery.png" height="300px" /></h3>
+            <p>EVENT-NAME</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3><img src="gallery.png" height="300px" /></h3>
+            <p>EVENT-NAME</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3><img src="gallery.png" height="300px" /></h3>
+            <p>EVENT-NAME</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h3><img src="gallery.png" height="300px" /></h3>
+            <p>EVENT-NAME</p>
+          </div>
+        </div>
+      </div>
+    </div>    
+      <div class="gallery-heading" id="gallery">
+        <h1>GALLERY</h1>
+      </div>
+    <div class="gallery">
+      <div class="gallery-container">
+      <div class="main_view"> 
+            <img src="1.jfif" id="main" alt="IMAGE"> 
+        </div>        
+        <div class="side_view"> 
+            <img src="1.jfif" onclick="change(this.src)"> 
+            <img src="2..jfif" onclick="change(this.src)"> 
+            <img src="3.jfif" onclick="change(this.src)"> 
+            <img src="4.jfif" onclick="change(this.src)">
+            <img src="gallery.png" onclick="change(this.src)"> 
+            <img src="gallery1.jpg" onclick="change(this.src)"> 
+            <img src="gallery3.jpg" onclick="change(this.src)"> 
+            <img src="gallery4.jfif" onclick="change(this.src)"> 
+        </div>
+      </div>
+    </div> 
+    </div>
+    <div class="contact" id="contact">
+      <div class="contacts-heading">
+        <h1>CONTACT US</h1>
+        <h5>FEEL FREE TO CONNECT WITH US!</h5>
+      </div>
+      <div class="container">
+        <div class="contact-info">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>IIITG - IT Park Street,<br />Guwahati-781015,<br />Assam</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>123-456-7890</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>abc@example.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputbox">
+              <input type="text" name="" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" required="required" />
+              <span>Subject</span>
+            </div>
+            <div class="inputbox">
+              <textarea required="required"></textarea>
+              <span>Message</span>
+            </div>
+            <div class="inputbox">
+              <input type="submit" name="" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footerlogo">
+        <img src="footerlogo.png" height="150px" />
+      </div>
+      <div class="links">
+        <ul>
+        <li>
+          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-youtube-square fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        </li>
+        </ul>      
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2021 IIITG | Developed by <a href="http://www.github.com/mayank-kr" target="_blank">Mayank Kumar<p>
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript"> 
+        const change = src => { 
+            document.getElementById('main').src = src 
+        } 
+    </script>
+    <script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 20,
+        speed: 300,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+  </body>
+</html>
